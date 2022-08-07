@@ -55,5 +55,4 @@ employeesNullSafe.stream()
 
 The first two lines of snippets A and B are essentially doing the same thing - to perform a null-check on the 'employees'
 variable. However, just a simple null-check takes up 50% of the code snippet. Someone reading the code for the first time has to pause and digest the first 
-2 lines before figuring out that it is just a null-check. Now if this coding-style is replicated throughout the codebase, it is definitely a chore 
-to read.
+2 lines before figuring out that it is just a null-check. Now if this coding-style is replicated throughout the codebase, it exponentially increases the cognitive complexity of the code.
